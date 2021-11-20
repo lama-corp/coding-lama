@@ -50,5 +50,17 @@ export default {
   axios: {},
 
   // https://i18n.nuxtjs.org
-  i18n: {},
+  i18n: {
+    strategy: 'prefix_except_default',
+    langDir: 'locales/',
+    defaultLocale: 'fr',
+    locales: [
+      { code: 'en', file: 'en.js' },
+      { code: 'fr', file: 'fr.js' },
+    ],
+    lazy: true,
+    vueI18n: {
+      fallbackLocale: 'fr',
+    },
+  },
 }
