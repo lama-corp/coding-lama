@@ -1,7 +1,9 @@
 <template>
-  <Tutorial/>
+  <div />
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'PageIndex',
+}
 </script>
