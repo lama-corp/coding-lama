@@ -39,11 +39,16 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // https://i18n.nuxtjs.org
+    '@nuxtjs/i18n',
   ],
+
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {},
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  // https://i18n.nuxtjs.org
+  i18n: {},
 }
