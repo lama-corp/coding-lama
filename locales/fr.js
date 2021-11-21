@@ -1,4 +1,9 @@
 export default {
+  common: {
+    action: {
+      close: 'Fermer',
+    },
+  },
   components: {
     layout: {
       sidebar: {
