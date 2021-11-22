@@ -42,12 +42,10 @@
 
 <script>
 import extendLayoutSidebar from '~/extends/layout/extend-layout-sidebar'
-import mixinIcons from '~/mixins/mixin-icons'
 
 export default {
   name: 'LayoutSidebar',
   extends: extendLayoutSidebar,
-  mixins: [mixinIcons],
   methods: {
     itemClass(item) {
       return this.selectedItem === item.name ? 'bg-gray-200' : ''

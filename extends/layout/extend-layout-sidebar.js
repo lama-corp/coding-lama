@@ -1,4 +1,7 @@
+import mixinIcons from '~/mixins/mixin-icons'
+
 export default {
+  mixins: [mixinIcons],
   data() {
     return {
       items: [

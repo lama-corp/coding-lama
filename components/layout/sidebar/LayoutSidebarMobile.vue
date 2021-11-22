@@ -89,12 +89,10 @@
 
 <script>
 import extendLayoutSidebar from '~/extends/layout/extend-layout-sidebar'
-import mixinIcons from '~/mixins/mixin-icons'
 
 export default {
   name: 'LayoutSidebarMobile',
   extends: extendLayoutSidebar,
-  mixins: [mixinIcons],
   props: {
     displaySidebar: {
       type: Boolean,
