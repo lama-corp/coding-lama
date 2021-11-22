@@ -66,4 +66,11 @@ export default {
       fallbackLocale: 'fr',
     },
   },
+
+  // Tailwind module configuration (https://go.nuxtjs.dev/tailwindcss)
+  tailwindcss: {
+    config: {
+      plugins: [require('@tailwindcss/forms')],
+    },
+  },
 }
